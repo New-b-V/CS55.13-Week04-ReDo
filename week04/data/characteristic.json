@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "owner": 1,
+    "characteristic": "Red, Green or Yellow"
+  },
+  {
+    "id": 2,
+    "owner": 2,
+    "characteristic": "Triangle shape"
+  },
+  {
+    "id": 3,
+    "owner": 3,
+    "characteristic": "Green or Purple"
+  },
+  {
+    "id": 4,
+    "owner": 4,
+    "characteristic": "Yellow"
+  },
+  {
+    "id": 5,
+    "owner": 2,
+    "characteristic": "Red"
+  }
+]

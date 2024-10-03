@@ -1,0 +1,22 @@
+[
+    { 
+      "name": "Apple",
+      "characteristic": "Red, Green or Yellow",
+      "id": 1
+    },
+    { 
+      "name": "Strawberry",
+      "characteristic": "Red",
+      "id": 2
+    },
+    { 
+      "name": "Grape",
+      "characteristic": "Green or Purple",
+      "id": 3
+    },
+    { 
+      "name": "Banana",
+      "characteristic": "Yellow",
+      "id": 4
+    }
+  ]
