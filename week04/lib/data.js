@@ -117,20 +117,7 @@ export async function getData(idRequested) {
   let objReturned;
   if (objMatch.length > 0) {
     objReturned = objMatch[0];
-    // we found fruits, now let's try to find all characteristics related to that person id
-    //get filepath to json file
-    const filePath2 = path.join(dataDir, 'characteristic.json');
-    // load json file contents
-    const jsonString2 = fs.readFileSync(filePath2,'utf8');
-    // convert string from file into json array object
-    const jsonObj2 = JSON.parse(jsonString2);
-    // find object value in array that has matching id
-    const objMatch2 = jsonObj2.filter(
-      function(obj) {
-       return obj.owner.toString() === idRequested;
-      }
-    );
-    objReturned.characteristic = objMatch2;
+
     
   } else {
     objReturned = {};
