@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
     "got": "^14.4.5",
     "next": "^15.0.4-canary.28",
     "react": "^18",
