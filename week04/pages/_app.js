@@ -1,10 +1,18 @@
+// bring in Head component
+import Head from 'next/head';
+// bring in bootstrap css with responsive css media queries
 import '../styles/bootstrap.min.css';
 import '../styles/globals.css';
 
-function MyApp( { Component, pageProps } ) {
+function MyApp({ Component, pageProps }) {
   return (
-    <Component {...pageProps} />
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <Component {...pageProps} />
+    </>
   );
 }
 
-export default MyApp;
+export default MyApp

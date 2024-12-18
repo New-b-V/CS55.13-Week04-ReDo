@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "got": "^14.4.5",
-    "next": "^15.0.4-canary.28",
-    "react": "^18",
-    "react-dom": "^18"
+    "got": "^9.6.0",
+    "next": "^15.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "eslint": "^8",
